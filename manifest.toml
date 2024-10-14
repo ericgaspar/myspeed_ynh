@@ -35,7 +35,7 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    
+
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -45,6 +45,7 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
+    in_subdir = false
     url = "https://github.com/gnmyt/myspeed/releases/download/v1.0.9/MySpeed-1.0.9.zip"
     sha256 = "7cc615c146c00d4e3f35109e7c0cc153255248a3d26254195897e7514bccc182"
 
