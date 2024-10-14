@@ -37,13 +37,6 @@ pushd "$install_dir"
 	ynh_hide_warnings ynh_exec_as_app npm install
 popd
 
-pushd "$install_dir/client"
-	ynh_hide_warnings ynh_exec_as_app npm install
-	ynh_hide_warnings ynh_exec_as_app npm run build
-popd
-
-mv $install_dir/client/build $install_dir 
-
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================

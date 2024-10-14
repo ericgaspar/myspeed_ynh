@@ -49,10 +49,10 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/gnmyt/myspeed/archive/refs/tags/v1.0.9.tar.gz"
-    sha256 = "51eb944254668a3ccce59233c1cc3ed2eb3389644a9a9b1c02c77b5e83631251"
+    url = "https://github.com/gnmyt/myspeed/releases/download/v1.0.9/MySpeed-1.0.9.zip"
+    sha256 = "7cc615c146c00d4e3f35109e7c0cc153255248a3d26254195897e7514bccc182"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
