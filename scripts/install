@@ -49,12 +49,3 @@ ynh_systemctl --service="$app" --action="start" --log_path="systemd" --wait_unti
 #=================================================
 
 ynh_script_progression "Installation of $app completed"
-
-
-
-npm install #
-
-
-
-
-cd client && npm install && npm run build && cd .. && mv client/build . #
